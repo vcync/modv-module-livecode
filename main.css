@@ -1,0 +1,9 @@
+.CodeMirror {
+  height: 20vh !important;
+  opacity: 0.1;
+}
+
+.CodeMirror-focused {
+  height: 70vh !important;
+  opacity: 0.6;
+}

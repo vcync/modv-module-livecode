@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "npx budo index.js --host localhost --css main.css -- -t [ babelify --presets [ es2015 ] ] "
+  },
+  "devDependencies": {
+    "2d-context": "^1.3.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "canvas-loop": "^1.0.7",
+    "get-user-media-promise": "^1.1.4",
+    "meyda": "^4.1.3",
+    "simplex-noise": "^2.4.0",
+    "vue": "^2.5.17",
+    "vue-codemirror-lite": "^1.0.4"
+  },
+  "dependencies": {
+    "budo": "^11.5.0"
+  }
+}
